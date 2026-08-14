@@ -1,0 +1,15 @@
+[package]
+name = "uikitdynamics"
+version = "26.1.0"
+edition = "2021"
+authors = ["arlomu"]
+description = "UIKit-Dynamics-style physics and animation engine for TontooOS — springs, easing, behaviors and animator"
+license = "MIT"
+repository = "https://github.com/TontooOS/UIKitDynamics"
+keywords = ["tontoo", "physics", "animation", "spring", "dynamics"]
+categories = ["gui", "animation", "graphics"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]

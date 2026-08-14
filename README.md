@@ -1,0 +1,20 @@
+# Tontoo UIKit Dynamics
+
+A Physics and Animation Lib for TontooUI/OS Apps
+
+## Made for TontooOS
+
+Explore more at https://github.com/TontooOS/Libs
+
+## Adding to Your Project
+
+Add to your `Cargo.toml`:
+
+```toml
+[dependencies]
+uikitdynamics = { path = "/Library/System/uikitdynamics.library" }
+```
+
+## License
+
+TCL v26.1
