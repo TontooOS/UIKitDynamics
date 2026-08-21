@@ -12,7 +12,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-uikitdynamics = { path = "/Library/System/uikitdynamics.library" }
+uikitdynamics = { path = "/Library/System/uikitdynamics" }
 ```
 
 ## License
