@@ -12,7 +12,14 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-uikitdynamics = { path = "/Library/System/uikitdynamics" }
+sdk = { path = "/Library/System/sdk", features = ["UIKitDynamics"] }
+```
+
+Then at the crate root:
+
+```rust
+sdk::preinclude!();
+use UIKitDynamics::{ /* ... */ };
 ```
 
 ## License
