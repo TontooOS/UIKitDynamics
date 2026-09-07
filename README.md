@@ -15,13 +15,6 @@ Add to your `Cargo.toml`:
 sdk = { path = "/Library/System/sdk", features = ["UIKitDynamics"] }
 ```
 
-Then at the crate root:
-
-```rust
-sdk::preinclude!();
-use UIKitDynamics::{ /* ... */ };
-```
-
 ## License
 
 TCL v26.1
