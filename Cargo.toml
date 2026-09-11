@@ -13,6 +13,6 @@ categories = ["gui", "animation", "graphics"]
 serde = { version = "1", features = ["derive"] }
 
 [lib]
-crate-type = ["dylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dev-dependencies]
